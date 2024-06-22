@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#style{
+    border: 2px solid green;
+    background: green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#style:hover{
+    background: black;
+    color: green;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+.nav .logo{
+    color: green;
+    margin-left: 9rem;
+    cursor: default;
+}
+.nav .nav-bar ul{
+    display: inline-flex;
+    margin-right: 5rem;
+}
+.nav .nav-bar ul li{
+    margin-right: 3rem;
+    color: green;
+    list-style: none;
+}
+.nav .nav-bar ul #lista{
+    margin-top: 10px;
+}
+.nav .nav-bar ul #lista:hover{
+    font-size:20px ;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.nav .nav-bar ul a{
+    text-decoration: none;
+}
+.skill{
+    width: 500px;
+    margin:60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+
+}
+section{
+    background: #21242b;
+    margin-top: -60px;
+    height: 640px;
+}
+.bar{
+    background: white;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 95%;
+    animation: html 3s;
+}
+.css{
+    width: 65%;
+    animation: html 3s;
+}
+.cpp{
+    width: 70%;
+    animation: html 3s;
+}
+.javascript{
+    width: 30%;
+    animation: html 3s;
+}
+.sliki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sliki .slika{
+    margin-right: 20px;
+    -webkit-transition: -webkit-transform 1s;
+}
+.sliki .slika:hover{
+    -webkit-transform:rotate(360deg) translateZ(0);
+}
+footer{
+    height: 40px;
+    background: black;
+    color: white;
+}
+footer .copy{
+    padding-top: 10px;
+}

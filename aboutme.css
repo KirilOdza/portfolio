@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#style{
+    border: 2px solid green;
+    background: green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#style:hover{
+    background: black;
+    color: green;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+.nav .logo{
+    color: green;
+    margin-left: 9rem;
+    cursor: default;
+}
+.nav .nav-bar ul{
+    display: inline-flex;
+    margin-right: 5rem;
+}
+.nav .nav-bar ul li{
+    margin-right: 3rem;
+    color: green;
+    list-style: none;
+}
+.nav .nav-bar ul #lista{
+    margin-top: 10px;
+}
+.nav .nav-bar ul #lista:hover{
+    font-size:20px ;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.nav .nav-bar ul a{
+    text-decoration: none;
+}
+section{
+    background: #1F2128;
+    height: 640px;
+}
+section .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+section .about .text-aboutme{
+    font-size: 18px;
+    width: 550px;
+    color: white;
+}
+.picture img{
+    border-radius: 90px;
+    box-shadow: 0px 0px 40px rgba(0, 103, 0, 1);
+    margin-bottom: 20px;
+ }
+.naslov{
+    margin-right: 410px;
+    margin-top: -600px;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+footer{
+    height: 40px;
+    background: black;
+    color: white;
+}
+footer .copy{
+    padding-top: 10px;
+}
+

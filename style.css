@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#style{
+    border: 2px solid green;
+    background: green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#style:hover{
+    background: black;
+    color: green;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+.nav .logo{
+    color: green;
+    margin-left: 9rem;
+    cursor: default;
+}
+.nav .nav-bar ul{
+    display: inline-flex;
+    margin-right: 5rem;
+}
+.nav .nav-bar ul li{
+    margin-right: 3rem;
+    color: green;
+    list-style: none;
+}
+.nav .nav-bar ul #lista{
+    margin-top: 10px;
+}
+.nav .nav-bar ul #lista:hover{
+    font-size:20px ;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.nav .nav-bar ul a{
+    text-decoration: none;
+}
+.main{
+   background:#1F2128 ;
+    height: 640px;
+    color: white;
+    padding-left: 50px;
+}
+.main .container{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    padding-top:150px ;
+}
+.main .container .text-center{
+    width: 450px;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -700px;
+}
+.main .container .slika-main{
+    margin-right: -550px;
+}
+.main .container .text-center span{
+    color: green;
+}
+footer{
+    height: 40px;
+    background: black;
+    color: white;
+}
+footer .copy{
+    padding-top: 10px;
+}

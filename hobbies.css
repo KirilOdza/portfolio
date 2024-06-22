@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#style{
+    border: 2px solid green;
+    background: green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#style:hover{
+    background: black;
+    color: green;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+.nav .logo{
+    color: green;
+    margin-left: 9rem;
+    cursor: default;
+}
+.nav .nav-bar ul{
+    display: inline-flex;
+    margin-right: 5rem;
+}
+.nav .nav-bar ul li{
+    margin-right: 3rem;
+    color: green;
+    list-style: none;
+}
+.nav .nav-bar ul #lista{
+    margin-top: 10px;
+}
+.nav .nav-bar ul #lista:hover{
+    font-size:20px ;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.nav .nav-bar ul a{
+    text-decoration: none;
+}
+section{
+    background: #1F2128;
+    height: 640px;
+    color: white;
+}
+.sekcija .cards p{
+    width: 260px;
+    padding-left: 24px;
+    padding-bottom: 8px;
+}
+.sekcija .cards .card:nth-child(3) p{
+    padding-bottom: 30px;
+}
+.sekcija .cards h1{
+    color: green;
+}
+.sekcija .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 120px;
+}
+.sekcija .cards .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.80), 0 1px 2px rgba(0,0,0,0.50); ;
+
+}
+.sekcija .cards .card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.30);
+}
+.sekcija  button{
+    border: 2px solid green;
+    background: green;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 60px;
+    width: 170px;
+    font-size: 18px;
+    position: absolute;
+   margin-left: 680px;
+    margin-top: 80px;
+}
+.sekcija  button:hover{
+    background:#1F2128;
+    color: green;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+footer{
+    height: 40px;
+    background: black;
+    color: white;
+}
+footer .copy{
+    padding-top: 10px;
+}
